@@ -1,0 +1,52 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+        "version": "",
+        "title": "Product Hunt",
+        "description": "",
+        "termsOfService": ""
+    },
+    "servers": [
+        "httpsapi.producthunt.com\/v1"
+    ],
+    "paths": {
+        "\/users\/{username}": {
+            "get": {
+                "summary": "Get Users",
+                "description": "Get users.",
+                "operationId": "GetUsersUsername",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "username",
+                        "in": "path",
+                        "description": ""
+                    }
+                ]
+            }
+        },
+        "\/categories\/{category}\/posts": {
+            "get": {
+                "summary": "Get Categories",
+                "description": "Get categories.",
+                "operationId": "GetCategoriesCategoryAdds",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "category",
+                        "in": "path",
+                        "description": ""
+                    },
+                    {
+                        "name": "days_ago",
+                        "in": "query",
+                        "description": ""
+                    }
+                ]
+            }
+        }
+    },
+    "components": {
+        "schemas": []
+    }
+}
