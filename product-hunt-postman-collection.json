@@ -1,0 +1,82 @@
+{
+    "id": "a154426bfd0a69c7de40090561d3c7cc",
+    "name": "Product Hunt",
+    "description": null,
+    "auth": null,
+    "events": null,
+    "variables": [],
+    "order": [],
+    "folders_order": [],
+    "folders": [],
+    "requests": [
+        {
+            "id": "4fbb132d16fa15f4977e668fd8958f0d",
+            "name": "Get Users",
+            "url": "httpsapi.producthunt.com\/v1\/users\/{username}",
+            "description": "Get users.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "username",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "a154426bfd0a69c7de40090561d3c7cc",
+            "rawModeData": ""
+        },
+        {
+            "id": "8b144728ad37eff630e5008a5f77110e",
+            "name": "Get Categories",
+            "url": "httpsapi.producthunt.com\/v1\/categories\/{category}\/posts",
+            "description": "Get categories.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "category",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "days_ago",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "a154426bfd0a69c7de40090561d3c7cc",
+            "rawModeData": ""
+        }
+    ]
+}
