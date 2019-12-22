@@ -15,8 +15,8 @@
         "startups",
         "streams"
     ],
-    "created": "2019-12-19",
-    "modified": "2019-12-19",
+    "created": "2019-12-21",
+    "modified": "2019-12-21",
     "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/product-hunt\/master\/apis.json",
     "specificationVersion": "0.14",
     "apis": [
@@ -30,11 +30,11 @@
             "properties": [
                 {
                     "type": "x-openapi",
-                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/product-hunt-openapi.json"
+                    "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/openapis\/product-hunt.json"
                 },
                 {
-                    "type": "x-openapi",
-                    "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/openapis\/product-hunt.json"
+                    "type": "x-postman-collecction",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/product-hunt\/master\/product-hunt-postman-collection.json"
                 }
             ]
         }
@@ -44,6 +44,10 @@
         {
             "type": "API.json - Authoritative",
             "url": "https:\/\/raw.githubusercontent.com\/producthunt\/producthunt-api\/master\/manifests\/v1\/apis.json"
+        },
+        {
+            "type": "APIs.json",
+            "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/apis.json"
         },
         {
             "type": "Blog",
