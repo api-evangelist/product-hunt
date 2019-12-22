@@ -1,5 +1,5 @@
 {
-    "id": "a154426bfd0a69c7de40090561d3c7cc",
+    "id": "8e4b7a82e663cbb6dab1489f042553ad",
     "name": "Product Hunt",
     "description": null,
     "auth": null,
@@ -10,7 +10,7 @@
     "folders": [],
     "requests": [
         {
-            "id": "4fbb132d16fa15f4977e668fd8958f0d",
+            "id": "74f78ab2ae55619ef2d969fa755443b1",
             "name": "Get Users",
             "url": "httpsapi.producthunt.com\/v1\/users\/{username}",
             "description": "Get users.",
@@ -37,11 +37,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "a154426bfd0a69c7de40090561d3c7cc",
+            "collectionId": "8e4b7a82e663cbb6dab1489f042553ad",
             "rawModeData": ""
         },
         {
-            "id": "8b144728ad37eff630e5008a5f77110e",
+            "id": "129e1fbf4558969d2b7a566a60da98d6",
             "name": "Get Categories",
             "url": "httpsapi.producthunt.com\/v1\/categories\/{category}\/posts",
             "description": "Get categories.",
@@ -75,7 +75,7 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "a154426bfd0a69c7de40090561d3c7cc",
+            "collectionId": "8e4b7a82e663cbb6dab1489f042553ad",
             "rawModeData": ""
         }
     ]
