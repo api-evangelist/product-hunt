@@ -1,0 +1,80 @@
+aid: product-hunt
+url: https://raw.githubusercontent.com/api-evangelist/product-hunt/refs/heads/main/apis.yml
+apis:
+- aid: product-hunt:product-hunt-api
+  name: Product Hunt API
+  tags:
+  - Product Discovery
+  - Startups
+  - Tech Products
+  image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+  baseURL: https://api.producthunt.com/v2
+  humanURL: https://api.producthunt.com/v2/docs
+  properties:
+  - url: https://api.producthunt.com/v2/docs
+    type: Documentation
+  - url: https://www.producthunt.com/v2/oauth/applications
+    type: Authentication
+  - url: https://api.producthunt.com/v2/docs#section/Getting-Started/Rate-Limiting
+    type: RateLimits
+  description: >-
+    The Product Hunt API provides programmatic access to Product Hunt's platform
+    data via GraphQL. Developers can query and retrieve information about products,
+    posts, topics, collections, users, votes, and comments. The API supports
+    OAuth 2.0 authentication and allows applications to interact with the Product
+    Hunt community, fetch daily product launches, explore trending tech products,
+    and integrate Product Hunt data into third-party applications.
+name: Product Hunt
+tags:
+- Product Discovery
+- Startups
+- Tech Products
+type: Index
+image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+access: 3rd-Party
+common:
+- url: https://www.producthunt.com/
+  name: Product Hunt Website
+  type: Website
+- url: https://api.producthunt.com/v2/docs
+  name: API Documentation
+  type: Documentation
+- url: https://www.producthunt.com/join
+  name: Sign Up
+  type: SignUp
+- url: https://www.producthunt.com/login
+  name: Login
+  type: Login
+- url: https://www.producthunt.com/v2/oauth/applications
+  name: OAuth Applications
+  type: Authentication
+- url: https://api.producthunt.com/v2/docs#section/Getting-Started/Rate-Limiting
+  name: Rate Limiting
+  type: RateLimits
+- url: https://www.producthunt.com/terms-of-service
+  name: Terms of Service
+  type: TermsOfService
+- url: https://www.producthunt.com/privacy
+  name: Privacy Policy
+  type: PrivacyPolicy
+- url: https://www.producthunt.com/discussions
+  name: Community Discussions
+  type: Forum
+- url: https://blog.producthunt.com/
+  name: Product Hunt Blog
+  type: Blog
+- url: https://x.com/producthunt
+  name: Product Hunt on X
+  type: X
+- url: https://www.linkedin.com/company/producthunt
+  name: Product Hunt on LinkedIn
+  type: LinkedIn
+- url: https://www.facebook.com/producthunt
+  name: Product Hunt on Facebook
+  type: Facebook
+- url: https://github.com/producthunt
+  name: Product Hunt on GitHub
+  type: GitHub
+created: '2026-03-24'
+modified: '2026-03-24'
+specificationVersion: '0.19'
