@@ -17,7 +17,7 @@ Product Hunt (https://www.producthunt.com/) is a platform for discovering new te
 ## Timestamps
 
 - **Created:** 2026-03-24
-- **Modified:** 2026-03-24
+- **Modified:** 2026-04-28
 
 ## APIs
 
@@ -27,6 +27,8 @@ The Product Hunt API provides programmatic access to Product Hunt's platform dat
 
 **Human URL:** [https://api.producthunt.com/v2/docs](https://api.producthunt.com/v2/docs)
 
+**Base URL:** https://api.producthunt.com/v2/api/graphql
+
 #### Tags:
 
  - Product Discovery, Startups, Tech Products
@@ -34,8 +36,12 @@ The Product Hunt API provides programmatic access to Product Hunt's platform dat
 #### Properties
 
 - [Documentation](https://api.producthunt.com/v2/docs)
+- [APIReference](https://api-v2-docs.producthunt.com)
 - [Authentication](https://www.producthunt.com/v2/oauth/applications)
+- [GraphQLExplorer](https://ph-graph-api-explorer.herokuapp.com/)
+- [GitHub](https://github.com/producthunt/producthunt-api)
 - [RateLimits](https://api.producthunt.com/v2/docs#section/Getting-Started/Rate-Limiting)
+- [Support](mailto:hello@producthunt.com)
 
 ## Common Properties
 
