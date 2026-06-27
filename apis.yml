@@ -64,7 +64,7 @@ commonProperties:
   url: https://www.producthunt.com/
 - type: Documentation
   url: https://api.producthunt.com/v2/docs
-- type: SignUp
+- type: Signup
   url: https://www.producthunt.com/join
 - type: Login
   url: https://www.producthunt.com/login
@@ -76,7 +76,7 @@ commonProperties:
   url: https://www.producthunt.com/terms-of-service
 - type: PrivacyPolicy
   url: https://www.producthunt.com/privacy
-- type: Forum
+- type: Forums
   url: https://www.producthunt.com/discussions
 - type: Blog
   url: https://blog.producthunt.com/
