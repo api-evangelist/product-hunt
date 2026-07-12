@@ -91,3 +91,6 @@ commonProperties:
 maintainers:
 - FN: API Evangelist
   email: info@apievangelist.com
+common:
+- type: DomainSecurity
+  url: security/product-hunt-domain-security.yml
