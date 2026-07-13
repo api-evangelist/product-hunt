@@ -2,11 +2,13 @@
   "repo": "product-hunt",
   "feeds": [
     {
-      "source": "https://blog.producthunt.com/",
+      "source": "https://www.producthunt.com/discussions",
+      "feed_url": "https://www.producthunt.com/discussions",
+      "title": "",
       "saved": 0,
-      "error": "fetch returned empty/no output"
+      "method": "none"
     }
   ],
   "post_count": 0,
-  "fetched": "2026-06-27T13:03:13Z"
+  "fetched": "2026-07-11T11:50:51Z"
 }
